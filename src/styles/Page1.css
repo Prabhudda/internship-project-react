@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-text {
+  width: 900px;
+  height: 270px;
+  padding: 60px;
+}
+.page-text-paragraph {
+  margin-top: 20px;
+}
+.bg-page1 {
+  background-image: url('../Images/bg-2.jpg');
+  width: 100%;
+  height: 430px;
+  position: relative;
+  padding: 70px 250px;
+}
+.page1-grid {
+  display: flex;
+}
+.page1-grid1,
+.page1-grid2,
+.page1-grid3,
+.page1-grid4 {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 180px;
+  padding: 30px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.page1-grid2,
+.page1-grid4 {
+  margin-left: 25px;
+}
+.page1-grid3,
+.page1-grid4 {
+  margin-top: 30px;
+}
+.bg-about-text {
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.bg-about-paragraph {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}

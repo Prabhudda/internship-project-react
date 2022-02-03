@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+.page4-container {
+  margin-top: 90px;
+  position: relative;
+}
+.page4-container-1 {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-image: url('../Images/bg-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page4-container-2 {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-image: url('../Images/bg-3.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page4-container-3 {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-image: url('../Images/bg-4.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page4-content1 {
+  margin-top: 300px;
+}
+.page4-content2 {
+  margin-top: 300px;
+  margin-left: 50px;
+}
+.page4-content3 {
+  margin-top: 300px;
+  margin-left: -150px;
+}
+.page4-content4 {
+  margin-left: 50px;
+  margin-top: 300px;
+}
+.page4-head-text {
+  font-weight: bold;
+}

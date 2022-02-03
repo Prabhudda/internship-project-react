@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+.page3-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.content-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 1000px;
+  height: 500px;
+  border-radius: 3px;
+  position: relative;
+}
+.page3-head-text {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+details {
+  width: 100%;
+  position: relative;
+  padding: 10px 5px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px rgb(192, 186, 186);
+  margin-top: 30px;
+}
+summary {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  font-weight: bold;
+}
+details[open] > summary {
+  color: #ff6666;
+}
+details[open] > summary .arrow-icon {
+  transform: rotate(90deg);
+  transition: all 0.2s linear;
+  color: #ff6666;
+}
+.summary-p-text {
+  margin-top: 10px;
+  padding: 0px 10px;
+}
