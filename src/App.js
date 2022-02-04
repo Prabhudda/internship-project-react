@@ -19,10 +19,10 @@ export default function App() {
       <Page4 
         title="Research  Facility" 
         content={<p>The research labs at our study sites use state-<br/>of-the-art equipment operated by highly <br/> qualified technicians</p>}
-        />
-        <Page5/>
-        <Page6/>
-        <Footer/>
+       />
+       <Page5/>
+       <Page6/>
+       <Footer/>
     </div>
   );
 } 
